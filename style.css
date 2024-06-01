@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../gambar/good-morning.gif");
+  background-size: cover;
+  color: #f5f1f1;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.Palete {
+  width: 100%;
+  height: 100px;
+  opacity: 1;
+  position: fixed;
+  top: 110px;
+  left: 50px;
+  overflow: hidden;
+  transition: top 1s ease;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #e8bcf0;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(117, 7, 142, 0.1);
+  border-radius: 8px;
+}
+
+.input-group,
+.button-group {
+  margin-bottom: 20px;
+}
+
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #f8f5f5;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #b7a0e1;
+  color: rgb(251, 249, 249);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ca5cdd;
+}
+
+#canvas {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#decodedMessage {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b7a0e1;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-height: 300px;
+  overflow-y: auto;
+}
